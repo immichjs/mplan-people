@@ -1,29 +1,32 @@
 <template>
-  <div id="app" class="flex items-center justify-center h-screen bg-gray-50">
-    <Home />
+  <div id="app" class="h-screen bg-gray-800 p-4">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from '@/components/Home'
+import { mapMutations } from 'vuex'
 
 export default {
   name: 'App',
   metaInfo: {
-    title: 'Vue with Tailwind CSS',
-    titleTemplate: '%s | Template',
+    title: 'CRUD Poeple',
+    titleTemplate: '%s | Mplan Sistemas',
     htmlAttrs: {
       lang: 'pt-br',
     }
   },
+  methods: {
+    ...mapMutations(['PERSISIST_PEOPLE'])
+  },
+  created () {
+    const people = JSON.parse(localStorage.getItem('people'))
+
+    if (people) {
+      this.PERSISIST_PEOPLE(people)
+    }
+  },
   components: {
-    Home
   }
 }
 </script>
-
-<style lang="postcss">
-#app {
-  font-family: 'Montserrat', sans-serif;
-}
-</style>

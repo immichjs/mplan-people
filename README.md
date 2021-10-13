@@ -1,9 +1,9 @@
-# Vue Tailwind Template
+# CRUD People
 
-Criei este repositório para me ajudar na hora de desenvolver uma aplicação, pois acaba facilitando muito toda a configuração do ambiente.
+Projeto em desenvolvimento do teste para dev Front-end Mplan Sistemas.
 
 <p align="center">
-    <img src="https://i.imgur.com/oSUJWo7.png">
+    <img src="">
 </p>
 
 ## Começando
