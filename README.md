@@ -1,4 +1,4 @@
-# CRUD People
+# Mplan People
 
 Projeto em desenvolvimento do teste para dev Front-end Mplan Sistemas.
 
