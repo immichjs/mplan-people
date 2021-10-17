@@ -6,7 +6,6 @@ import store from './store'
 import router from './router'
 
 import './assets/tailwind.css'
-import 'animate.css'
 import 'boxicons'
 
 Vue.use(Vuex)
