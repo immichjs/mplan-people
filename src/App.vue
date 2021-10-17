@@ -16,7 +16,7 @@ export default {
   },
   name: 'App',
   metaInfo: {
-    title: 'CRUD Poeple',
+    title: 'CRUD People',
     titleTemplate: '%s | Mplan Sistemas',
     htmlAttrs: {
       lang: 'pt-br',

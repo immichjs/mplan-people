@@ -9,7 +9,7 @@
       <box-icon name='chevron-right' color="#E5E7EB"></box-icon>
     </div>
 
-    <form @submit.prevent="addPerson" class="w-full flex flex-col mt-2">
+    <form @submit.prevent="addPerson" class="w-full flex flex-col mt-2 overflow-auto h-full-165px md:h-auto">
       <div class="md:flex gap-4">
         <div class="w-full mt-2">
           <label class="text-gray-200 font-medium uppercase text-sm ml-16">Nome</label>

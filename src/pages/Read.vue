@@ -28,7 +28,7 @@
       <box-icon name='chevron-right' color="#E5E7EB"></box-icon>
     </div>
 
-    <div class="overflow-auto h-full-165px mt-8" v-if="people.length">
+    <div class="overflow-auto h-full-215px md:h-full-165px mt-8" v-if="people.length">
       <template v-if="searchPeople.length > 0">
       <table class="w-full text-gray-200 bg-gray-800">
         <tr class="border-b border-gray-700 text-sm">

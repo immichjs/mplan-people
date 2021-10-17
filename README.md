@@ -3,7 +3,14 @@
 Projeto em desenvolvimento do teste para dev Front-end Mplan Sistemas.
 
 <p align="center">
-    <img src="">
+    <img src="https://i.imgur.com/DLFWmRX.png">
+    <img src="https://i.imgur.com/f5urK4r.png">
+    <img src="https://i.imgur.com/3nt5niq.png">
+    <img src="https://i.imgur.com/K5LSb0b.png">
+    <img src="https://i.imgur.com/PpaBdfN.png">
+    <img src="https://i.imgur.com/aGE37hK.png">
+    <img src="https://i.imgur.com/9qqbGMT.png">
+    <img src="https://i.imgur.com/ttUDQ5g.png">
 </p>
 
 ## Começando
@@ -39,6 +46,7 @@ Leia as documentações abaixo para continuar seu desenvolvimento com essas tecn
 - [Boxicons](https://boxicons.com/)
 - [Vue-Meta](https://www.npmjs.com/package/vue-meta)
 - [Vuex](https://vuex.vuejs.org/ptbr/)
+- [Vue-Router](https://router.vuejs.org)
 
 <p align="center">Template feito com 💖 por Mich.</p>
 

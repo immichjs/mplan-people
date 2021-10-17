@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'full-165px': 'calc(100% - 165px)'
+        'full-165px': 'calc(100% - 165px)',
+        'full-215px': 'calc(100% - 215px)'
       }
     },
     screens: {
