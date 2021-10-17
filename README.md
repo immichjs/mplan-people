@@ -19,9 +19,9 @@ Para inicilizar e usar este template, é necessário ter duas ferramentas instal
 
 - Clone o projeto com os comando abaixo:
 ```
-$ git clone git@github.com:immichjs/vue-tailwind-template.git
+$ git clone https://github.com/immichjs/mplan-people.git
 
-$ cd vue-tailwind-template
+$ cd mplan-people
 ```
 
 - Logo após, instale todas as dependencias com:
