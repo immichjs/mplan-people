@@ -1,13 +1,19 @@
 <template>
   <div id="app" class="h-screen bg-gray-800 p-4">
     <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import { mapMutations } from 'vuex'
 
+import Footer from '@/components/Footer'
+
 export default {
+  components: {
+    Footer
+  },
   name: 'App',
   metaInfo: {
     title: 'CRUD Poeple',
@@ -26,7 +32,5 @@ export default {
       this.PERSISIST_PEOPLE(people)
     }
   },
-  components: {
-  }
 }
 </script>
