@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Create from '@/components/Create'
-import Home from '@/components/Home'
-import Read from '@/components/Read'
-import Edit from '@/components/Edit'
+import store from '../store'
+
+import Create from '@/pages/Create'
+import Home from '@/pages/Home'
+import Read from '@/pages/Read'
+import Edit from '@/pages/Edit'
 
 Vue.use(VueRouter)
 
@@ -15,7 +17,15 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/create', component: Create },
     { path: '/read', component: Read },
-    { path: '/edit', component: Edit },
+    {
+      path: '/edit/:id',
+      component: Edit,
+      beforeEnter (to, from, next) {
+        const checkIfTheUserIdExists = store.state.people.find(person => person.id === Number(to.params.id))
+        if (!checkIfTheUserIdExists) next('/read')
+        else next()
+      }
+    },
   ]
 })
 

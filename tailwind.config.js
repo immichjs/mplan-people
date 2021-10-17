@@ -5,6 +5,11 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      height: {
+        'full-32px': 'calc(100% - 32px)'
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
