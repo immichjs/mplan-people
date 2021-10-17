@@ -15,7 +15,7 @@
         </ul>
       </div>
       
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 mt-4">
         <router-link to="/create" class="flex items-center justify-between text-center p-3 bg-purple-400 md:hover:bg-purple-500 transition duration-200 shadow md:flex-1 rounded-lg border-none outline-none text-gray-200 font-semibold text-sm uppercase">
           <span class="w-full">Cadastrar</span>
           <box-icon name='plus' color="#E5E7EB"></box-icon>
